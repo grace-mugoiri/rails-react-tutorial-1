@@ -1,24 +1,54 @@
-# README
+<h1 align="center">Welcome to Rails React Tutorial 👋</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a tutorial app with Ruby on Rails and React.
+The instruction can be found [Free Code Camp](https://www.freecodecamp.org/news/how-to-create-a-rails-project-with-a-react-and-redux-front-end-8b01e17a1db/).
 
-Things you may want to cover:
+![](./public/screenshot.png)
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby 2.6
+- Rails 6.0
+- React
+- Redux
+- Semantic UI
 
-* Configuration
+## Getting started
 
-* Database creation
+> Clone the repository to your local machine
 
-* Database initialization
+```
+$ git clone https://github.com/shjang7/rails-react-tutorial.git
+```
 
-* How to run the test suite
+> Change directory into the directory
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ cd rails-react-tutorial
+```
 
-* Deployment instructions
+> Create database
 
-* ...
+```
+$ rails db:create
+```
+
+> Install the needed gems:
+
+```
+$ bundle install
+```
+
+> Install dependency
+
+```
+$ yarn install
+```
+
+> Open server
+
+```
+$ rails server
+```
+
+> Go to `http://localhost:3000/hello` using your browser.
